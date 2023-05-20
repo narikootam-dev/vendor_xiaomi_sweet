@@ -8879,18 +8879,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "msm_irqbalance",
-	owner: "xiaomi",
-	srcs: ["proprietary/vendor/bin/msm_irqbalance"],
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
 	name: "netmgrd",
 	owner: "xiaomi",
 	srcs: ["proprietary/vendor/bin/netmgrd"],
