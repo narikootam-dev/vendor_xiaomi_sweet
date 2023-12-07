@@ -593,6 +593,7 @@ PRODUCT_PACKAGES += \
     libhfp \
     libpn553_fw \
     libqcodec2 \
+    libqtigef \
     librice \
     libsmwrapper \
     libsndmonitor \
