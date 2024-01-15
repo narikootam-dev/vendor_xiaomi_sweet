@@ -532,6 +532,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/vendor/radio/qcril_database/upgrade/11_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/11_version_update_ecc_table.sql \
     vendor/xiaomi/sweet/proprietary/vendor/radio/qcril_database/upgrade/12_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/12_version_update_ecc_table.sql \
     vendor/xiaomi/sweet/proprietary/vendor/radio/qcril_database/upgrade/13_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/13_version_update_ecc_table.sql \
+    vendor/xiaomi/sweet/proprietary/vendor/radio/qcril_database/upgrade/14_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/14_version_update_ecc_table.sql \
     vendor/xiaomi/sweet/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
     vendor/xiaomi/sweet/proprietary/vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/2_version_add_wps_config.sql \
     vendor/xiaomi/sweet/proprietary/vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_update_wps_config.sql \
@@ -636,28 +637,6 @@ PRODUCT_PACKAGES += \
     libsndmonitor \
     libspkrprot \
     libvppclient \
-    capi_v2_aptX_CLHDAD_Encoder \
-    capi_v2_aptX_Classic \
-    capi_v2_aptX_HD \
-    libVC1Dec \
-    libVC1DecDsp_skel \
-    libapps_mem_heap \
-    libarcsoft_dualcam_refocus_skel \
-    libcamera_nn_skel \
-    libcvpdsp_skel \
-    libdirac-capiv2 \
-    libdspCV_skel \
-    libdsp_streamer_add_constant \
-    libdsp_streamer_binning \
-    libdsp_streamer_skel \
-    libfastcvadsp \
-    libfastcvdsp_skel \
-    libhexagon_nn_skel \
-    libhexagon_nn_skel_secondary \
-    libscveObjectSegmentation_skel \
-    libscveT2T_skel \
-    libsns_device_mode_skel \
-    libsns_low_lat_stream_skel \
     libasphere \
     libmisoundfx \
     libshoebox \
@@ -762,10 +741,10 @@ PRODUCT_PACKAGES += \
     lib-siputility \
     lib-uceservice \
     libCB \
+    libFaceDetectpp-0.5.2 \
     libFaceGrade \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libFaceDetectpp-0.5.2 \
     libOpenCL \
     libPSNPE \
     libQSEEComAPI \
@@ -815,6 +794,7 @@ PRODUCT_PACKAGES += \
     libdsi_netctrl \
     libdualcam_optical_zoom_control \
     libdualcam_video_optical_zoom \
+    libfacedet \
     libft2vendor \
     libhdcpsrm \
     libhexagon_nn_stub \
@@ -829,7 +809,6 @@ PRODUCT_PACKAGES += \
     libllvm-qcom \
     liblqe \
     libmdsprpc \
-    libfacedet \
     libmiai_portraitsupernight \
     libmialgo_fs \
     libmialgo_ie_capture \
@@ -989,6 +968,35 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
+    capi_v2_aptX_CLHDAD_Encoder \
+    capi_v2_aptX_Classic \
+    capi_v2_aptX_HD \
+    capi_v2_dap_cpdp \
+    libVC1Dec \
+    libVC1DecDsp_skel \
+    libapps_mem_heap \
+    libarc_hta_driver_skel \
+    libarcsoft_dualcam_refocus_skel \
+    libarcsoft_hdrplus_hvx_skel \
+    libcamera_nn_skel \
+    libcvpdsp_skel \
+    libdirac-capiv2 \
+    libdspCV_skel \
+    libdsp_streamer_add_constant \
+    libdsp_streamer_binning \
+    libdsp_streamer_skel \
+    libfastcvadsp \
+    libfastcvdsp_skel \
+    libhexagon_nn_skel \
+    libhexagon_nn_skel_secondary \
+    libhta_dsp_skel \
+    libmialgo_rfs_cdsp_skel \
+    libscveObjectSegmentation_skel \
+    libscveT2T_skel \
+    libsnpe_dsp_v65_domains_v2_skel \
+    libsnpe_dsp_v66_domains_v2_skel \
+    libsns_device_mode_skel \
+    libsns_low_lat_stream_skel \
     fm_helium \
     libfm-hci \
     vendor.qti.hardware.fm@1.0_system_ext \
