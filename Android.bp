@@ -175,6 +175,26 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libStDrvInt",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libStDrvInt.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libStDrvInt.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libVkLayer_q3dtools",
 	owner: "xiaomi",
 	strip: {
@@ -807,6 +827,26 @@ cc_prebuilt_library_shared {
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libsecureui.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libsecureui_svcsock",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libsecureui_svcsock.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libsecureui_svcsock.so"],
 		},
 	},
 	compile_multilib: "both",
