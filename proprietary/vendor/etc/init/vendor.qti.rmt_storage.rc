@@ -8,6 +8,5 @@ service vendor.rmt_storage /vendor/bin/rmt_storage
     class core
     user root
   group system wakelock
-  group system wakelock
     shutdown critical
     ioprio rt 0
