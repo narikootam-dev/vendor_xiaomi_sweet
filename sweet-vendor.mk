@@ -635,6 +635,7 @@ PRODUCT_PACKAGES += \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
     consumerir.sm6150 \
+    fingerprint.fortsense.sm6150 \
     fingerprint.fpc.sm6150 \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
@@ -894,6 +895,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
+    vendor.sw.swfingerprint@2.0 \
     capi_v2_aptX_CLHDAD_Encoder \
     capi_v2_aptX_Classic \
     capi_v2_aptX_HD \
