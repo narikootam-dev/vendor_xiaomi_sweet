@@ -489,6 +489,7 @@ PRODUCT_PACKAGES += \
     libhdmiedid \
     libhfp \
     libqcodec2 \
+    libqtigef \
     librice \
     libsmwrapper \
     libsndmonitor \
