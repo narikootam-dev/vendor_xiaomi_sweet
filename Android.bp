@@ -2833,7 +2833,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.dsi.ant@1.0",
+	name: "com.dsi.ant@1.0_vendor",
+	stem: "com.dsi.ant@1.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
