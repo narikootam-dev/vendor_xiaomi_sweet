@@ -14,6 +14,22 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+	name: "com.dsi.ant@1.0",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/system/lib64/com.dsi.ant@1.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "eglSubDriverAndroid",
 	owner: "xiaomi",
 	strip: {
