@@ -659,6 +659,7 @@ PRODUCT_PACKAGES += \
     libmpbase \
     libmulticam_image_optical_zoom \
     libmulticam_video_optical_zoom \
+    libnanopb \
     libnetmgr \
     libnetmgr_common \
     libnetmgr_nr_fusion \
