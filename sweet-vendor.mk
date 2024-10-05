@@ -324,10 +324,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sweet/proprietary/vendor/firmware/vehicle_dacia_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_dacia_RTP.bin \
     vendor/xiaomi/sweet/proprietary/vendor/firmware/vehicle_moto_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_moto_RTP.bin \
     vendor/xiaomi/sweet/proprietary/vendor/firmware/vehicle_plane_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_plane_RTP.bin \
-    vendor/xiaomi/sweet/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
-    vendor/xiaomi/sweet/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
-    vendor/xiaomi/sweet/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
-    vendor/xiaomi/sweet/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
     vendor/xiaomi/sweet/proprietary/vendor/lib64/camera/com.qti.sensormodule.sweet_ofilm_imx355_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sweet_ofilm_imx355_ultra.bin \
     vendor/xiaomi/sweet/proprietary/vendor/lib64/camera/com.qti.sensormodule.sweet_ofilm_imx471_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sweet_ofilm_imx471_front.bin \
     vendor/xiaomi/sweet/proprietary/vendor/lib64/camera/com.qti.sensormodule.sweet_ofilm_ov02b1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sweet_ofilm_ov02b1b.bin \
@@ -392,9 +388,9 @@ PRODUCT_PACKAGES += \
     libq3dtools_esx \
     vulkan.adreno \
     libC2D2 \
+    libCB \
+    libOpenCL \
     libStDrvInt \
-    libVkLayer_q3dtools \
-    libadreno_app_profiles \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
@@ -406,10 +402,10 @@ PRODUCT_PACKAGES += \
     libdsutils \
     libfastcvdsp_stub \
     libfastcvopt \
-    libgpudataproducer \
     libgsl \
     libidl \
     libllvm-glnext \
+    libllvm-qcom \
     libmdmdetect \
     libmmosal \
     libqmi \
@@ -585,12 +581,10 @@ PRODUCT_PACKAGES += \
     lib-rtpsl \
     lib-siputility \
     lib-uceservice \
-    libCB \
     libFaceDetectpp-0.5.2 \
     libFaceGrade \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libOpenCL \
     libPSNPE \
     libQSEEComAPI \
     libSNPE \
@@ -654,12 +648,9 @@ PRODUCT_PACKAGES += \
     libizat_client_api \
     libizat_core \
     libjnihelper \
-    libkcl \
-    libkernelmanager \
     libkeymasterdeviceutils \
     libkeymasterutils \
     liblbs_core \
-    libllvm-qcom \
     libloc_api_v02 \
     libloc_socket \
     liblocationservice \
