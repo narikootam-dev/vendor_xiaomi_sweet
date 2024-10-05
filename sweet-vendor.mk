@@ -411,7 +411,7 @@ PRODUCT_PACKAGES += \
     libidl \
     libllvm-glnext \
     libmdmdetect \
-    libmmosal_vendor \
+    libmmosal \
     libqmi \
     libqmi_cci \
     libqmi_client_helper \
@@ -883,7 +883,7 @@ PRODUCT_PACKAGES += \
     misound_res \
     misound_res_headphone \
     misound_res_spk \
-    com.qualcomm.qti.dpm.api@1.0_system_ext \
+    com.qualcomm.qti.dpm.api@1.0 \
     fm_helium \
     lib-imsvideocodec \
     lib-imsvt \
@@ -898,10 +898,10 @@ PRODUCT_PACKAGES += \
     libimscamera_jni \
     libimsmedia_jni \
     vendor.qti.diaghal@1.0 \
-    vendor.qti.hardware.fm@1.0_system_ext \
+    vendor.qti.hardware.fm@1.0 \
     vendor.qti.hardware.tui_comm@1.0 \
-    vendor.qti.imsrtpservice@3.0_system_ext \
-    vendor.qti.imsrtpservice@3.1_system_ext \
+    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.imsrtpservice@3.1 \
     CACertService \
     CneApp \
     IWlanService \
