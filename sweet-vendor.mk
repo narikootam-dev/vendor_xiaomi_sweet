@@ -545,7 +545,6 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
-    consumerir.sm6150 \
     fingerprint.fortsense.sm6150 \
     fingerprint.fpc.sm6150 \
     vendor.qti.gnss@4.0-impl \
