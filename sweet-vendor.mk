@@ -298,16 +298,6 @@ PRODUCT_PACKAGES += \
     btaudio_offload_if \
     audio.primary.sm6150 \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxDsdDec \
-    libOmxEvrcDec \
-    libOmxQcelp13Dec \
-    libOmxVpp \
-    libOmxWmaDec \
     liba2dpoffload \
     libacdb-fts \
     libacdbloader \
@@ -321,7 +311,6 @@ PRODUCT_PACKAGES += \
     libaudioroute_ext \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
-    libdsd2pcm \
     libhdmiedid \
     libhfp \
     libqcodec2 \
